@@ -24,6 +24,9 @@ $(call inherit-product, device/samsung/gvlte/device.mk)
 # Inherit common Lineage phone.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
+# Inherit more LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/telephony.mk)
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := lineage_gvlte
 PRODUCT_DEVICE := gvlte

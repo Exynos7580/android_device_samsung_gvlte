@@ -17,6 +17,10 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SYSMAGIC000K
 TARGET_KERNEL_CONFIG := lineageos_gvlte_defconfig
 
+# Radio
+BOARD_PROVIDES_LIBRIL := true
+BOARD_MODEM_TYPE := tss310
+
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
