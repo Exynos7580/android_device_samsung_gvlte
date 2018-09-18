@@ -1,9 +1,9 @@
  # Inherit from gv-common
  include device/samsung/gv-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/gvwifi
+DEVICE_PATH := device/samsung/gvlte
 
-TARGET_OTA_ASSERT_DEVICE := gvwifi
+TARGET_OTA_ASSERT_DEVICE := gvlte
 
 # Partitions sizes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 29360128
@@ -14,8 +14,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13514047488
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Kernel
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board FPRPGVWI000K
-TARGET_KERNEL_CONFIG := lineageos_gvwifi_defconfig
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SYSMAGIC000K
+TARGET_KERNEL_CONFIG := lineageos_gvlte_defconfig
 
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)

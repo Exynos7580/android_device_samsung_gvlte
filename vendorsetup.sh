@@ -1,2 +1,2 @@
-add_lunch_combo lineage_gvwifi-eng
-add_lunch_combo lineage_gvwifi-userdebug
+add_lunch_combo lineage_gvlte-eng
+add_lunch_combo lineage_gvlte-userdebug

@@ -1,7 +1,7 @@
  # Inherit from gv-common
  include device/samsung/gv-common/gv-common.mk
 
-DEVICE_PATH := device/samsung/gvwifi
+DEVICE_PATH := device/samsung/gvlte
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
@@ -15,4 +15,4 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/gvwifi/gvwifi-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gvlte/gvlte-vendor.mk)

@@ -1,4 +1,4 @@
-Device Tree For Samsung Galaxy View WIFI
+Device Tree For Samsung Galaxy View LTE
 ===================================== 
 
 Basic   | Spec Sheet
@@ -15,8 +15,8 @@ Display | 18.4"
 Front Camera  | 2.1 MP
 
 
-![Galaxy View WIFI](http://techbeasts.com/wp-content/uploads/2015/10/Galaxy-View.png "Galaxy View WIFI")
+![Galaxy View LTE](http://techbeasts.com/wp-content/uploads/2015/10/Galaxy-View.png "Galaxy View LTE")
 
 This branch is for building LineageOS 15.1 Firmware.
 
-Model Supported : SM-T670
+Model Supported : SM-T677

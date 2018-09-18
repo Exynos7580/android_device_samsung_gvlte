@@ -19,21 +19,21 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Initialise device config
-$(call inherit-product, device/samsung/gvwifi/device.mk)
+$(call inherit-product, device/samsung/gvlte/device.mk)
 
 # Inherit common Lineage phone.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_gvwifi
-PRODUCT_DEVICE := gvwifi
-PRODUCT_MODEL := SM-T670
+PRODUCT_NAME := lineage_gvlte
+PRODUCT_DEVICE := gvlte
+PRODUCT_MODEL := SM-T677
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=gvwifi \
-    PRIVATE_BUILD_DESC="gvwifiue-user 5.1.1 LMY47X T670UEU2APJ1 release-keys"
+    PRODUCT_NAME=gvlte \
+    PRIVATE_BUILD_DESC="gvltexx-user 5.1.1 LMY47X T677XXU2APL3 release-keys"
 
-BUILD_FINGERPRINT := samsung/gvwifiue/gvwifiue:5.1.1/LMY47X/T670UEU2APJ1:user/release-keys
+BUILD_FINGERPRINT := samsung/gvltexx/gvlte:5.1.1/LMY47X/T677XXU2APL3:user/release-keys
